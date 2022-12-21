@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+main div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main div p {
+  padding-bottom: 2.5em;
+}
+main div svg {
+  margin: 0em 1em 1em 16em;
+}
+main .boxcard1 {
+  border-top: 6px solid hsl(180deg, 62%, 55%);
+}
+main .boxcard2 {
+  border-top: 6px solid hsl(0deg, 78%, 62%);
+}
+main .boxcard3 {
+  border-top: 6px solid hsl(34deg, 97%, 64%);
+}
+main .boxcard4 {
+  border-top: 6px solid hsl(212deg, 86%, 64%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+body .headings h1 {
+  color: hsl(234deg, 12%, 34%);
+  font-weight: 600;
+  font-size: 2.1em;
+}
+body .headings h2 {
+  font-weight: 200;
+  font-size: 2em;
+}
+body .headings h4 {
+  text-align: center;
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+  margin: 0.5em 28em;
+}
+body main h3 {
+  color: hsl(234deg, 12%, 34%);
+  padding-bottom: 0.5em;
+}
+body main p {
+  color: hsl(229deg, 6%, 66%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body main {
+  margin: 0px 15px 15px 15px;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body main section {
+  width: 27em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section div {
+  padding: 2em 2em 1em 2em;
+  height: 17em;
+  width: 25em;
+}
+body footer {
+  padding: 20px 20px 40px 20px;
+}
+body footer p {
+  font-size: 15px;
+}
+
+.headings {
+  padding: 40px 20px 20px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1310px) and (min-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .headings h4 {
+    margin: 0.5em 2em;
+  }
+  body main {
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .headings h1 h2 {
+    font-size: 1.8em;
+  }
+  body .headings h4 {
+    margin: 0.5em 0.5em;
+  }
+  body main {
+    height: 185vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+  }
+  body main section div {
+    height: 16em;
+    width: 22em;
+  }
+  body main section div svg {
+    margin: 0em 1em 0em 14em;
+  }
+}/*# sourceMappingURL=main.css.map */
